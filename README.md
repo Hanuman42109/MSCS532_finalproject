@@ -24,8 +24,8 @@ The goal is to highlight how algorithmic choices, data locality, and vectorizati
 
 ### **Prerequisites**
 
-Python 3.8+
-NumPy
+- Python 3.8+
+- NumPy
 
 Install requirements:
 
@@ -67,13 +67,13 @@ python matmul_demo.py --n 256 --block 64
 
 ## 📈 Performance Summary
 
-  Matrix Size   Method        Time (s)
-  ------------- ------------- ----------
-  **128×128**   NumPy         0.00010
-                Blocked       0.00013
-                Python Loop   0.433
-  **256×256**   NumPy         0.00051
-                Blocked       0.00138
+| Matrix Size | Method       | Time (s)  |
+|-------------|--------------|-----------|
+| 128×128     | NumPy        | 0.00010   |
+| 128×128     | Blocked      | 0.00013   |
+| 128×128     | Python Loop  | 0.433     |
+| 256×256     | NumPy        | 0.00051   |
+| 256×256     | Blocked      | 0.00138   |
 
 ------------------------------------------------------------------------
 
