@@ -27,7 +27,7 @@ The goal is to highlight how algorithmic choices, data locality, and vectorizati
 - Python 3.8+
 - NumPy
 
-Install requirements:
+### **Install requirements**
 
 ``` bash
 pip install numpy
@@ -41,10 +41,12 @@ python matmul_demo.py --n 256 --block 64
 
 ### **Arguments**
 
-  Argument    Default   Description
-  ----------- --------- -----------------------------------------
-  `--n`       256       Matrix dimension (creates n×n matrices)
-  `--block`   64        Tile size for blocked multiplication
+### Command-Line Arguments
+
+| Argument | Default | Description |
+|----------|---------|-------------|
+| `--n`     | 256     | Matrix dimension (creates n×n matrices) |
+| `--block` | 64      | Tile size for blocked multiplication |
 
 ------------------------------------------------------------------------
 
